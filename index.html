@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sifiso Mpisana</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+      background: #0f0f13;
+      color: #e8e8f0;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 3rem 1.5rem;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 3rem;
+    }
+
+    .avatar {
+      width: 110px;
+      height: 110px;
+      border-radius: 50%;
+      background: linear-gradient(135deg, #6c63ff, #3ecfcf);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 2.6rem;
+      font-weight: 700;
+      color: #fff;
+      margin: 0 auto 1.4rem;
+      letter-spacing: -1px;
+    }
+
+    h1 {
+      font-size: 2.4rem;
+      font-weight: 700;
+      letter-spacing: -0.5px;
+      background: linear-gradient(90deg, #a78bfa, #38bdf8);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+
+    .tagline {
+      margin-top: 0.5rem;
+      color: #8888aa;
+      font-size: 1.05rem;
+    }
+
+    main {
+      width: 100%;
+      max-width: 680px;
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+    }
+
+    .card {
+      background: #17171f;
+      border: 1px solid #2a2a3a;
+      border-radius: 16px;
+      padding: 2rem;
+    }
+
+    .card h2 {
+      font-size: 0.75rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 1.5px;
+      color: #6c63ff;
+      margin-bottom: 1rem;
+    }
+
+    .card p {
+      color: #c0c0d8;
+      line-height: 1.75;
+      font-size: 1rem;
+    }
+
+    .skills {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.6rem;
+      margin-top: 0.2rem;
+    }
+
+    .skill-tag {
+      background: #1f1f2e;
+      border: 1px solid #2e2e45;
+      border-radius: 999px;
+      padding: 0.35rem 0.9rem;
+      font-size: 0.85rem;
+      color: #a0a0c0;
+    }
+
+    .links {
+      display: flex;
+      gap: 1rem;
+      flex-wrap: wrap;
+    }
+
+    .link-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.45rem;
+      padding: 0.55rem 1.2rem;
+      border-radius: 999px;
+      border: 1px solid #2e2e45;
+      background: #1f1f2e;
+      color: #c0c0d8;
+      text-decoration: none;
+      font-size: 0.9rem;
+      transition: border-color 0.2s, color 0.2s;
+    }
+
+    .link-btn:hover {
+      border-color: #6c63ff;
+      color: #a78bfa;
+    }
+
+    footer {
+      margin-top: 3rem;
+      color: #44445a;
+      font-size: 0.8rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="avatar">SM</div>
+    <h1>Sifiso Mpisana</h1>
+    <p class="tagline">Building things &amp; solving problems</p>
+  </header>
+
+  <main>
+
+    <div class="card">
+      <h2>About Me</h2>
+      <p>
+        I work at the intersection of real estate transactions, credit risk, and investment
+        analysis, with exposure to how deals are sourced, evaluated, and structured before
+        capital is deployed.
+      </p>
+      <br />
+      <p>
+        Currently, I work in real estate acquisitions with Pebble Ridge Capital Group, a U.S.
+        private equity firm focused on self-storage and industrial assets. My role sits at the
+        front end of the acquisition process, where I screen investment opportunities, gather
+        and analyze deal documentation, and prepare assets for underwriting and investment
+        committee review.
+      </p>
+      <br />
+      <p>
+        Prior to this, I worked as a Business Development Specialist at Stratafin, originating
+        and structuring property-backed funding transactions for sectional title schemes and
+        homeowners' associations. The role involved assessing financial statements, levy rolls,
+        arrears profiles, and governance structures before applications were escalated to credit
+        committee.
+      </p>
+      <br />
+      <p>
+        This experience provided practical insight into how lenders evaluate risk, security, and
+        cash-flow durability, and how transaction structure ultimately determines whether a deal
+        is bankable.
+      </p>
+      <br />
+      <p>
+        Earlier in my career at IGrow Wealth Investments, I was involved in property investment
+        consulting and development support, which provided exposure to portfolio structuring,
+        investor advisory, and the operational side of residential property investment.
+      </p>
+      <br />
+      <p>
+        Across these roles, I've developed a strong interest in deal-driven finance, particularly
+        real estate acquisitions and investment analysis, where sourcing, underwriting, and
+        capital allocation intersect.
+      </p>
+      <br />
+      <p>
+        Alongside my professional work, I am completing a BCompt in Accounting Science
+        (Management Accounting) to deepen my technical foundation as I continue building toward
+        a long-term career in investment and asset management.
+      </p>
+    </div>
+
+    <div class="card">
+      <h2>Skills &amp; Interests</h2>
+      <div class="skills">
+        <span class="skill-tag">Finance</span>
+        <span class="skill-tag">Real Estate Investing</span>
+        <span class="skill-tag">Entrepreneurship</span>
+        <span class="skill-tag">Wealth</span>
+        <span class="skill-tag">Technology</span>
+        <span class="skill-tag">Education</span>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>Get in Touch</h2>
+      <div class="links">
+        <a class="link-btn" href="mailto:sifisompisana@gmail.com">
+          ✉ Email
+        </a>
+        <a class="link-btn" href="https://github.com/SifisoML" target="_blank" rel="noopener">
+          ⌥ GitHub
+        </a>
+        <a class="link-btn" href="https://www.linkedin.com/in/sifisompisana/" target="_blank" rel="noopener">
+          ↗ LinkedIn
+        </a>
+      </div>
+    </div>
+
+  </main>
+
+  <footer>© 2026 Sifiso Mpisana</footer>
+
+</body>
+</html>
